@@ -1,0 +1,121 @@
+header{
+    background-color: aqua;
+    padding: 16px 0;
+}
+
+.left-header{
+    background-color: red;
+    float: left;
+    padding: 6px 0;
+}
+
+.left-header ul{
+    margin-top: 4px;
+}
+
+.right-header{
+    background-color: yellow;
+    float: right;
+}
+
+.logo-wrapper{
+    float: left;
+    margin-right: 32px;
+}
+
+.logo-wrapper a{
+    width: 105px;
+    display: inline-block;
+}
+
+
+
+.header-navigation{
+    float: left;
+}
+
+.header-navigation li{
+    float: left;
+    margin-right: 32px;
+}
+
+.header-navigation li:last-child{
+    margin-right: 0;
+}
+
+.right-header li{
+    float: left;
+    margin-right: 12px;
+}
+
+.right-header li:last-child{
+    margin-right: 0;
+}
+
+
+
+.hero-banner{
+    background-color: magenta;
+    height: 682px;   
+    /* padding-top: 96px;  */
+}
+.main-content{
+    height: 682px;
+}
+.main-content h1{
+    float: left;
+    margin-top: 168px;
+    width: 730px;
+    line-height: 98px;
+    font-size: 72px;
+}
+.button{
+    background-color: #8C30F5;
+    border: none;
+    color: white;
+    padding: 12px 32px;
+    text-align: center;
+    border-radius: 6px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 32px;
+    line-height: 24px;
+}
+
+.phone-mockup-img{
+    float: right;
+    height: 640px;
+    width: 350px;
+    margin-top: 96px;
+    margin-left: 30px;
+    /*  */
+}
+
+
+.hero-logo{
+    background-color: #30f530;
+    margin-top: 58px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.logos{
+    background-color: aqua;
+    padding: 24px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.logos li{
+    float:left;
+    margin-right: 64px;
+}
+
+.logos li:last-child{
+    margin-right: 0;
+}
+
+
+
+
+
