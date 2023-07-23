@@ -1,76 +1,75 @@
-header{
+header {
     background-color: aqua;
     padding: 16px 0;
 }
 
-.left-header{
+.left-header {
     background-color: red;
     float: left;
     padding: 6px 0;
 }
 
-.left-header ul{
+.left-header ul {
     margin-top: 4px;
 }
 
-.right-header{
+.right-header {
     background-color: yellow;
     float: right;
 }
 
-.logo-wrapper{
+.logo-wrapper {
     float: left;
     margin-right: 32px;
 }
 
-.logo-wrapper a{
+.logo-wrapper a {
     width: 105px;
     display: inline-block;
 }
 
-
-
-.header-navigation{
+.header-navigation {
     float: left;
 }
 
-.header-navigation li{
+.header-navigation li {
     float: left;
     margin-right: 32px;
 }
 
-.header-navigation li:last-child{
+.header-navigation li:last-child {
     margin-right: 0;
 }
 
-.right-header li{
+.right-header li {
     float: left;
     margin-right: 12px;
 }
 
-.right-header li:last-child{
+.right-header li:last-child {
     margin-right: 0;
 }
 
-
-
-.hero-banner{
+.hero-banner {
     background-color: magenta;
-    height: 682px;   
+    height: 682px;
     /* padding-top: 96px;  */
 }
-.main-content{
+
+.main-content {
     height: 682px;
 }
-.main-content h1{
+
+.main-content h1 {
     float: left;
     margin-top: 168px;
     width: 730px;
     line-height: 98px;
     font-size: 72px;
 }
-.button{
-    background-color: #8C30F5;
+
+.button {
+    background-color: #8c30f5;
     border: none;
     color: white;
     padding: 12px 32px;
@@ -83,7 +82,7 @@ header{
     line-height: 24px;
 }
 
-.phone-mockup-img{
+.phone-mockup-img {
     float: right;
     height: 640px;
     width: 350px;
@@ -92,30 +91,160 @@ header{
     /*  */
 }
 
-
-.hero-logo{
+.hero-logo {
     background-color: #30f530;
     margin-top: 58px;
     padding-top: 16px;
     padding-bottom: 16px;
 }
 
-.logos{
+.logos {
     background-color: aqua;
     padding: 24px;
     margin-left: 70px;
     margin-right: 70px;
 }
-.logos li{
-    float:left;
+
+.logos li {
+    float: left;
     margin-right: 64px;
 }
 
-.logos li:last-child{
+.logos li:last-child {
     margin-right: 0;
 }
 
+/* Content */
+
+.hero-features {
+    background-color: #bdadce;
+}
+
+.content {
+    background-color: orangered;
+    text-align: center;
+    padding: 64px;
+}
+
+.cards {
+    background-color: #30f530;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.card {
+    background-color: red;
+    height: 148px;
+    width: 350px;
+}
+
+.card--img {
+    height: 32px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.card img {
+    height: 100%;
+}
+
+.card>h3 {
+    text-align: center;
+    padding: 5px;
+}
+
+.card>p {
+    text-align: center;
+}
+
+/* Stories */
+
+.stories {
+    background-color: blanchedalmond;
+    position: relative;
+}
+
+.stories .title {
+    width: 445px;
+    height: 128px;
+    /* background-color: aliceblue; */
+    /* absolute */
+    position: absolute;
+    left: 280px;
+    top: 100px;
+}
+
+.stories .title::before {
+    content: "";
+    background: url("../Images/quote.png");
+    height: 120px;
+    width: 140px;
+    z-index: -1;
+    position: absolute;
+    top: -70px;
+    left: -100px;
+    opacity: 0.5;
+}
+
+.stories .img {
+    width: 140px;
+    height: 40px;
+}
+
+.stories .review {
+    padding: 32px;
+}
+
+.stories .review.hubspot {
+    width: 350px;
+    background-color: yellow;
+    height: 468px;
+
+    /* position absolute */
+    position: absolute;
+    top: 260px;
+    left: 390px;
+}
+
+.stories .review .story .quty::before {
+    content: "";
+    background: url("../Images/quote.png");
+    background-size: 16px 14px;
+    height: 16px;
+    width: 14px;
+    z-index: 20;
+    position: absolute;
+    left: -0.4px;
+}
+
+.stories .review.airbnb {
+    width: 445px;
+    background-color: green;
+    height: 340px;
+
+    /* position absolute */
+    position: absolute;
+    top: 180px;
+    left: 770px;
+}
+
+.stories .review.getmy {
+    width: 350px;
+    background-color: orchid;
+    height: 276px;
+    /* position absolute */
+    position: absolute;
+    top: 560px;
+    left: 770px;
+}
 
 
+.stories .quty {
+    margin-left: 10px;
+}
 
-
+.stories .name {
+    margin-top: 30px;
+    margin-left: 10px;
+}
